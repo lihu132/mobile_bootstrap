@@ -1,0 +1,16 @@
+.header {
+  width: 200px;
+  height: 200px;
+}
+.header a {
+  color: red;
+}
+.header a:hover {
+  color: blue;
+}
+.nav::before {
+  content: '';
+}
+.nav .logo {
+  color: green;
+}
