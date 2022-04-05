@@ -1,0 +1,21 @@
+@border: 5px + 5;
+@baseFont: 50px;
+
+html{
+    font-size: @baseFont;
+}
+
+
+div{
+    width: 200px - 50;
+    height: 200px * 2;
+    border: @border solid red;
+}
+
+img{
+    width: (82rem / @baseFont);
+    height: (82rem / @baseFont);
+}
+
+// 1.运算符的左右两侧必须加一个空格隔开
+// 2.参与运算，无论如何，以第一个单位为准
